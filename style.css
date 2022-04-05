@@ -1,13 +1,6 @@
 /* css */
 *{margin: 0;padding: 0;}
-/* Vista Mobile */
-
-
-
-
-
-
-
+/* vista escritorio */
 
 .grid-conteiner {
     display: grid;
@@ -15,7 +8,12 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    grid-template-areas: "row1 row1 row1";
+    grid-template-areas:
+        "row1"
+        "row2"
+        "row3"
+        "row4"
+        "row5"
     }
 
 .row1 {
@@ -193,3 +191,20 @@ h3 {
 .form-row button:active {
     background-color: #407FC7;
 }
+
+/* Vista Mobile */
+@media screen and (max-width: 440px){
+    .body {
+        display: grid;
+        grid-template-columns: 320px;
+        grid-template-rows: repeat(10%, 500px);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-template-areas:
+            "row1"
+            "row2"
+            "row3"
+            "row4"
+            "row5"
+        }
+    }
