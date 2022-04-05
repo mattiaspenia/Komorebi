@@ -1,0 +1,195 @@
+/* css */
+*{margin: 0;padding: 0;}
+/* Vista Mobile */
+
+
+
+
+
+
+
+
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas: "row1 row1 row1";
+    }
+
+.row1 {
+    grid-area: row1;
+}
+
+.row2 {
+    grid-area: row2;
+}
+
+.row3 {
+    grid-area: row3;
+}
+
+.row4 {
+    grid-area: row4;
+}
+
+.row5 {
+    grid-area: row5;
+}
+
+
+
+
+@font-face {
+	font-family: baloo-titles;
+	src: url(./fonts/static/Baloo2-Regular.ttf);
+}
+
+.Inicio {
+	font-family: baloo-titles;
+	padding: 60px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+	background-image: url(./Imagenes/footer/24701-nature-natural-beauty.jpg);
+	background-size: cover;
+}
+
+.productos {
+	justify-content: center;
+}
+a {
+	display: block;
+	padding: 8px;
+	background-color: #135257;
+	font-family: baloo-titles;
+}
+
+ul {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li a {
+	display: flex;
+	flex-direction: row-reverse;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+h1 {
+	font-family: baloo-titles;
+}
+h2 {
+	font-family: baloo-titles;
+}
+h3 {
+	font-family: baloo-titles;
+}
+
+.catalog {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-width: 5px;
+	border-style: dotted;
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	height: auto;
+	background-color: beige;
+}
+
+/* footer */
+
+.speaker-form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #D6D9dC;
+    border-radius: 3px;
+    width: 80%;
+    margin: 40px 0;
+    padding: 50px;
+}
+
+.speaker-form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.speaker-form {
+    background-color: #fff;
+    border: 1px solid #D6D9dC;
+    border-radius: 3px;
+    width: 80%;
+    margin: 0 0 40px 0;
+    padding: 50px;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+.form-row label {
+    margin-bottom: 15px;
+}
+.form-row textarea {
+    font-size: 14px;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 7px;
+    min-height: 200px;
+    width: 100%;
+    resize: none;
+    min-width: 100%;
+}
+
+.form-row .instructions {
+    color: #999;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: #76AEED;
+}
+
+.form-row button:active {
+    background-color: #407FC7;
+}

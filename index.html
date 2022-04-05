@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title class="header">Komorebi Eco Tienda</title>
+	</head>
+	<body>
+		<div class="grid-conteiner">
+			<header class="Inicio">Komorebi Eco Tienda</header>
+			<nav>
+				<!-- logo -->
+				<ul id="menu">
+					<li>
+						<a href="#Contacto">Contacto</a>
+					</li>
+					<li>
+						<a href="#OurMission">Our Mission</a>
+					</li>
+					<li><a href="#Concientiza">Concientiza</a></li>
+					<li><a href="#Productos">Productos</a></li>
+					<li><a href="#Inicio">Inicio</a></li>
+				</ul>
+			</nav>
+			<section>
+				<!-- Carrusel de Imagenes -->
+			</section>
+			<section class="productos">
+				<h2>Productos</h2>
+				<img
+					src="./Imagenes/Productos/placeholder.png"
+					alt="info de Productos"
+				/>
+				<img
+					src="./Imagenes/Productos/placeholder.png"
+					alt="info de Productos"
+				/>
+				<img
+					src="./Imagenes/Productos/placeholder.png"
+					alt="Info de Productos"
+				/>
+				<h3>Catalogo</h3>
+				<a
+					class="catalog"
+					href="https://drive.google.com/file/d/1HNqEW8pxnSRiYOCGb8NkJWQA5IBblWpx/view"
+				>
+					<img
+						src="./Imagenes/Productos/catalogo.png"
+						height="100px"
+						alt="catalogo"
+					/>
+				</a>
+			</section>
+			<section id="Concientiza">
+				<h2>Concientiza</h2>
+				<img src="./Imagenes/Productos/placeholder.png" alt="Placeholder" />
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/gSf7pq45Ymg"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+			</section>
+			<section id="Our Mission">
+				<h2>Our Mission</h2>
+				<textarea name="Nuestra Mision" id="Mision" cols="30" rows="10">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus dolor doloremque beatae, maiores cumque deserunt ab ipsum tempore reprehenderit facilis atque, quidem facere pariatur labore earum voluptas, quis fugit.</textarea
+				>
+			</section>
+			<section id="Contacto">
+				<h3>Contacto</h3>
+				<a class="fb" href="https://www.facebook.com/KOMOREBI.ECOLOGICO"
+					><img src="./Imagenes/footer/images.png" height="50px" alt="facebook"
+				/></a>
+				<a class="ig" href="https://www.instagram.com/komorebi.ecologico/"
+					><img
+						src="./Imagenes/footer/instagram-social-media-icon-design-template-vector-png_127006.jpg"
+						height="50px"
+						alt="instagram"
+				/></a>
+				<a
+					class="wp"
+					href="https://api.whatsapp.com/send?phone=543571312373&text=Buen%20d%C3%ADa!%20Me%20interesa%20comprar..."
+					><img
+						src="./Imagenes/footer/whatsapp.png"
+						height="50px"
+						alt="Whatsapp"
+				/></a>
+				<form action="form.php" method="POST" class="speaker-form">
+					<div class="form-row">
+						<label for="full-name">Nombre</label>
+						<input
+							type="text"
+							id="full-name"
+							placeholder="Ej:residente"
+							name="nombre"
+							required
+						/>
+					</div>
+					<div class="form-row">
+						<label for="email">Email</label>
+						<input
+							type="email"
+							id="email"
+							placeholder="Ej:residente@gmail.com"
+							name="email"
+							required
+						/>
+					</div>
+
+					<div class="form-row">
+						<label for="abstract">Tu mensaje</label>
+						<textarea name="textarea" id="asbtract"></textarea>
+						<p class="instructions">
+							Escribe tu mensaje en 500 palabras o menos
+						</p>
+					</div>
+					<div class="form-row">
+						<button type="submit">Enviar</button>
+					</div>
+				</form>
+			</section>
+		</div>
+	</body>
+</html>
